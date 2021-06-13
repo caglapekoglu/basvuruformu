@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang=tr dir="ltr">
+  <head>
+    <title>Başvuru Formu</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <h1>Başvuru Formu</h1>
+    <form name="kayit" action="index.html" method="post"> <!--get verileri görünür halde çeker,post ise gizli-->
+      Ad Soyad: <input type="text" name="adsoyad" value="" size="20" maxlength="30" required>
+      <br><br>
+      E-mail: <input type="email" name="" value="" placeholder="deneme@example.com" required> <!-- required zorunlu kılar -->
+      <br> <br>
+      Web Sitesi: <input type="url" name="" value="" required>
+      <br><br>
+      Yaşınız: <input type="number" name="" value="">
+      <br><br>
+      Hangi programlama dillerini biliyorsunuz? <br>
+      <input type="checkbox" name="" value="">Javascript
+      <br>
+      <input type="checkbox" name="" value="">PHP
+      <br>
+      <input type="checkbox" name="" value="">Python
+      <br>
+      <input type="checkbox" name="" value="">Dart
+      <br><br>
+      Üniversite durumunuz nedir? <br>
+      <input type="radio" name="durumu" value="">Öğrenci
+      <br>
+      <input type="radio" name="durumu" value="">Mezun
+      <br><br>
+      Doğum Yeri: <select name="sehirler">
+        <option>Ankara</option>
+        <option>Antalya</option>
+        <option>İstanbul</option>
+        <option>İzmir</option>
+        <option>Mersin</option>
+        <option>Muğla</option>
+      </select>
+      <br><br>
+      Hakkınızda: <textarea name="name" rows="8" cols="80"></textarea>
+      <br><br>
+      CV: <input type="file" name="" value="">
+      <br><br>
+      <input type="submit" name="" value="Gönder">
+      <input type="reset" name="" value="Sıfırla">
+    </form>
+  </body>
+</html>
